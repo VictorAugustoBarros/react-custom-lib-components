@@ -1,9 +1,11 @@
+/** @format */
 import React from "react";
+
 import { Meta, StoryObj } from "@storybook/react";
 import { Input } from ".";
 
 const meta = {
-  title: "Atoms/Input",
+  title: "Input",
   component: Input,
   tags: ["autodocs"],
   argTypes: {

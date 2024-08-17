@@ -1,10 +1,12 @@
+/** @format */
 import React from "react";
+
 import { Meta, StoryObj } from "@storybook/react";
 import { Button } from ".";
 import { ChevronRight } from "lucide-react";
 
 const meta = {
-  title: "Atoms/Button",
+  title: "Button",
   component: Button,
   tags: ["autodocs"],
   argTypes: {

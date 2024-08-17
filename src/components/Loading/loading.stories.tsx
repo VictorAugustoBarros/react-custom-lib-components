@@ -1,20 +1,20 @@
+/** @format */
 import React from "react";
 import { Meta, StoryObj } from "@storybook/react";
-import ExampleForm from "./exampleForm";
+import LoadingSpinner from "./LoadingSpinner";
 
 const meta = {
-  title: "Organisms/ExampleForm",
-  component: ExampleForm,
+  title: "Loading",
+  component: LoadingSpinner,
   tags: ["autodocs"],
+  argTypes: {},
   parameters: {
     layout: "centered",
   },
-} satisfies Meta<typeof ExampleForm>;
+} satisfies Meta<typeof LoadingSpinner>;
 
 export default meta;
 
 type Story = StoryObj<typeof meta>;
 
-export const Default: Story = {
-  args: {},
-};
+export const Loading: Story = {};
